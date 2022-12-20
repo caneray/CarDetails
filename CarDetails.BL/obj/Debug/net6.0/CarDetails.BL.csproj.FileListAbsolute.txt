@@ -1,0 +1,17 @@
+C:\Project\CarDetails.PL\CarDetails.BL\bin\Debug\net6.0\CarDetails.BL.deps.json
+C:\Project\CarDetails.PL\CarDetails.BL\bin\Debug\net6.0\CarDetails.BL.runtimeconfig.json
+C:\Project\CarDetails.PL\CarDetails.BL\bin\Debug\net6.0\CarDetails.BL.dll
+C:\Project\CarDetails.PL\CarDetails.BL\bin\Debug\net6.0\CarDetails.BL.pdb
+C:\Project\CarDetails.PL\CarDetails.BL\bin\Debug\net6.0\CarDetails.DL.dll
+C:\Project\CarDetails.PL\CarDetails.BL\bin\Debug\net6.0\CarDetails.DL.pdb
+C:\Project\CarDetails.PL\CarDetails.BL\obj\Debug\net6.0\CarDetails.BL.csproj.AssemblyReference.cache
+C:\Project\CarDetails.PL\CarDetails.BL\obj\Debug\net6.0\CarDetails.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\CarDetails.PL\CarDetails.BL\obj\Debug\net6.0\CarDetails.BL.AssemblyInfoInputs.cache
+C:\Project\CarDetails.PL\CarDetails.BL\obj\Debug\net6.0\CarDetails.BL.AssemblyInfo.cs
+C:\Project\CarDetails.PL\CarDetails.BL\obj\Debug\net6.0\CarDetails.BL.csproj.CoreCompileInputs.cache
+C:\Project\CarDetails.PL\CarDetails.BL\obj\Debug\net6.0\CarDetails.BL.csproj.CopyComplete
+C:\Project\CarDetails.PL\CarDetails.BL\obj\Debug\net6.0\CarDetails.BL.dll
+C:\Project\CarDetails.PL\CarDetails.BL\obj\Debug\net6.0\refint\CarDetails.BL.dll
+C:\Project\CarDetails.PL\CarDetails.BL\obj\Debug\net6.0\CarDetails.BL.pdb
+C:\Project\CarDetails.PL\CarDetails.BL\obj\Debug\net6.0\CarDetails.BL.genruntimeconfig.cache
+C:\Project\CarDetails.PL\CarDetails.BL\obj\Debug\net6.0\ref\CarDetails.BL.dll
