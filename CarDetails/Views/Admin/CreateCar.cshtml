@@ -1,0 +1,70 @@
+﻿@model CarDetails.DL.Models.CarAdd
+
+@{
+	ViewData["Title"] = "AraçEekle";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+	<div class="col-md-4">
+		<form asp-action="CreateCar" enctype="multipart/form-data">
+			<div asp-validation-summary="ModelOnly" class="text-danger" ></div>
+			
+			<div class="form-group">
+				<label asp-for="CarModel" class="control-label"></label>
+				<input asp-for="CarModel" class="form-control" />
+				<span asp-validation-for="CarModel" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="CarModelDate" class="control-label"></label>
+				<input asp-for="CarModelDate" class="form-control" />
+				<span asp-validation-for="CarModelDate" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="CarHP" class="control-label"></label>
+				<input asp-for="CarHP" class="form-control" />
+				<span asp-validation-for="CarHP" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="PackageName" class="control-label"></label>
+				<input asp-for="PackageName" class="form-control" />
+				<span asp-validation-for="PackageName" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="CarFuel" class="control-label"></label>
+				<input asp-for="CarFuel" class="form-control" />
+				<span asp-validation-for="CarFuel" class="text-danger"></span>
+			</div>
+			
+			<div class="form-group">
+				<label class="control-label">Araç Resmi Seçiniz</label>
+				<input type="file" name="ImageUrl" asp-for="ImageUrl" accept="image/*" class="form-control" />
+			</div>
+
+
+			<div class="form-group">
+				<select asp-for="BrandId" asp-items="@ViewBag.brand" class="form-select">
+					<option disabled selected>Marka Seçiniz</option>
+				</select>
+				<span asp-validation-for="BrandId" class="text-danger"></span>
+			</div>
+
+			<div class="form-group">
+				<select asp-for="CaseTypeId" asp-items="@ViewBag.casetype" class="form-select">
+					<option disabled selected>Kasa Tipi Seçiniz</option>
+				</select>
+				<span asp-validation-for="CaseTypeId" class="text-danger"></span>
+			</div>
+
+			
+			<div class="form-group">
+				<input type="submit" value="Kaydet" class="btn btn-primary" />
+			</div>
+		</form>
+	</div>
+</div>
+
+<div>
+	<a asp-action="Cars">Geri Dön</a>
+</div>
+

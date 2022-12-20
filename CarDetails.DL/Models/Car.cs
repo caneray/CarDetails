@@ -17,12 +17,19 @@ namespace CarDetails.DL.Models
         [Required(ErrorMessage = "Model Yılı Boş Geçilemez!")]
         [Display(Name = "Model Yılı")]
         public DateTime CarModelDate { get; set; }
-        [Required(ErrorMessage = "Kasa Tipi Boş Geçilemez!")]
-        [Display(Name = "Kasa Tipi")]
+      
+        
+        [Required(ErrorMessage = "Motor Gücü Boş Geçilemez!")]
+        [Display(Name = "Motor Gücü ")]
         public int CarHP { get; set; }
+
+
+
+
+
         [Required(ErrorMessage = "Araç Paketi Boş Geçilemez!")]
         [Display(Name = "Araç Paketi")]
-        public string PackegeName { get; set; }
+        public string PackageName { get; set; }
         [Required(ErrorMessage = "Yakıt Türü Boş Geçilemez!")]
         [Display(Name = "Yakıt Türü")]
         public string CarFuel { get; set; }

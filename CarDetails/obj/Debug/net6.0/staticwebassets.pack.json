@@ -2973,6 +2973,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\images\\121f1c10-b03c-4eeb-954c-47069c310b31.jpg",
+      "PackagePath": "staticwebassets\\images\\121f1c10-b03c-4eeb-954c-47069c310b31.jpg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\images\\913024c6-bf61-40c5-b02e-f7cdf44b1b9b.webp",
+      "PackagePath": "staticwebassets\\images\\913024c6-bf61-40c5-b02e-f7cdf44b1b9b.webp"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\images\\fb3b2126-dc02-4dde-9219-8ea7813af519.jpg",
+      "PackagePath": "staticwebassets\\images\\fb3b2126-dc02-4dde-9219-8ea7813af519.jpg"
+    },
+    {
       "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

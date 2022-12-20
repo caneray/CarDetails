@@ -24,6 +24,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQnJhbmRFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Project/CarDetails/CarDetails/Views/Admin/Cars.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2Fycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Project/CarDetails/CarDetails/Views/Admin/CaseType.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2FzZVR5cGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Project/CarDetails/CarDetails/Views/Admin/CreateBrand.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlQnJhbmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/CarDetails/CarDetails/Views/Admin/CreateCar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlQ2FyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Project/CarDetails/CarDetails/Views/Admin/CreateCaseType.cshtml]
@@ -66,6 +74,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Project/CarDetails/CarDetails/Views/Shared/Components/CarsGet/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2Fyc0dldFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Project/CarDetails/CarDetails/Views/Shared/Components/HomeCarsGet/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcSG9tZUNhcnNHZXRcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Project/CarDetails/CarDetails/Views/Shared/Error.cshtml]

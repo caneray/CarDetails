@@ -1,80 +1,146 @@
 ﻿using CarDetails.BL.Repository;
 using CarDetails.DL.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Reflection.Metadata;
 
 namespace CarDetails.PL.Controllers
 {
-    public class AdminController : Controller
-    {
-        CaseTypeRepository caseTypeRepository = new CaseTypeRepository();
-        BrandRepository brandRepository = new BrandRepository();
-        public IActionResult Index()
-        {
-            return View();
-        }
-        #region CASETYPE 
-        
-        public IActionResult CaseType()
-        {
-            var result = caseTypeRepository.TList();
-            return View(result);
-        }
+	public class AdminController : Controller
+	{
+		CaseTypeRepository caseTypeRepository = new CaseTypeRepository();
+		BrandRepository brandRepository = new BrandRepository();
+		CarRepository carRepository = new CarRepository();
+		Context context = new Context();
+		public IActionResult Index()
+		{
+			return View();
+		}
+
+		public IActionResult Cars()
+		{
+			var result = carRepository.TList();
+			return View(result);
+		}
+		public IActionResult CreateCar()
+		{
+			List<SelectListItem> values = (from x in context.Brand.ToList()
+										   select new SelectListItem
+										   {
+											   Text = x.BrandName,
+											   Value = x.BrandId.ToString(),
+										   }).ToList();
+			ViewBag.brand = values;
+			
+			List<SelectListItem> values2 = (from x in context.CaseType.ToList()
+										   select new SelectListItem
+										   {
+											   Text = x.CaseTypeName,
+											   Value = x.CaseTypeId.ToString(),
+										   }).ToList();
+			ViewBag.casetype = values2;
+
+
+
+
+			return View();
+		}
+		[HttpPost]
+		public IActionResult CreateCar(CarAdd model)
+		{
+			Car c = new Car();
+			if (ModelState.IsValid)
+			{
+				if (model.ImageUrl != null)
+				{
+					var extension = Path.GetExtension(model.ImageUrl.FileName);
+					var newImageName = Guid.NewGuid() + extension;
+					var location = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/", newImageName);
+					var stream = new FileStream(location, FileMode.Create);
+					model.ImageUrl.CopyTo(stream);
+					c.ImageUrl = newImageName;
+				}
+				c.CarModel = model.CarModel;
+				c.CarModelDate = model.CarModelDate;
+				c.CarHP = model.CarHP;
+				c.PackageName = model.PackageName;
+				c.CarFuel = model.CarFuel;
+				c.BrandId=model.BrandId;
+				c.CaseTypeId= model.CaseTypeId;
+
+				carRepository.TAdd(c);
+				return RedirectToAction("Cars");
+			}
+
+			return View();
+		}
+
+
+		#region CASETYPE 
+
+		public IActionResult CaseType()
+		{
+			var result = caseTypeRepository.TList();
+			return View(result);
+		}
 		public IActionResult CreateCaseType()
 		{
 			return View();
 		}
-        [HttpPost]
+		[HttpPost]
 		public IActionResult CreateCaseType(CaseType model)
 		{
-            if (ModelState.IsValid)
-            {
+			if (ModelState.IsValid)
+			{
 				caseTypeRepository.TAdd(model);
-                return RedirectToAction("CaseType");
+				return RedirectToAction("CaseType");
 			}
-            
+
 			return View();
 		}
 		public IActionResult CaseTypeDelete(int id)
 		{
-            var result = caseTypeRepository.TGet(id);
-            if (result == null)
-            {
-                return NotFound();
-            }
-            else
-            {
-                caseTypeRepository.TDelete(result);
-                return RedirectToAction("CaseType");
-            }
+			var result = caseTypeRepository.TGet(id);
+			if (result == null)
+			{
+				return NotFound();
+			}
+			else
+			{
+				caseTypeRepository.TDelete(result);
+				return RedirectToAction("CaseType");
+			}
 		}
 		public IActionResult CaseTypeEdit(int id)
 		{
 			var result = caseTypeRepository.TGet(id);
-            if (id == 0)
-            {
+			if (id == 0)
+			{
 				return NotFound();
 			}
 			return View(result);
 		}
-        [HttpPost]
+		[HttpPost]
 		public IActionResult CaseTypeEdit(CaseType model)
 		{
-            var result = caseTypeRepository.TGet(model.CaseTypeId);
-            if (ModelState.IsValid)
-            {
-                result.CaseTypeName = model.CaseTypeName;
-                caseTypeRepository.TUpdate(result);
-                return RedirectToAction("CaseType");
-            }
+			var result = caseTypeRepository.TGet(model.CaseTypeId);
+			if (ModelState.IsValid)
+			{
+				result.CaseTypeName = model.CaseTypeName;
+				caseTypeRepository.TUpdate(result);
+				return RedirectToAction("CaseType");
+			}
 			return View();
 		}
-        #endregion
+		#endregion
 
-        public IActionResult Brand()
-        {
-            var result = brandRepository.TList();
-            return View(result);
-        }
+		#region BRAND
+
+		public IActionResult Brand()
+		{
+			var result = brandRepository.TList();
+			return View(result);
+		}
 		public IActionResult BrandDelete(int id)
 		{
 			var result = brandRepository.TGet(id);
@@ -124,5 +190,8 @@ namespace CarDetails.PL.Controllers
 			}
 			return View();
 		}
+		#endregion
+
+
 	}
 }
