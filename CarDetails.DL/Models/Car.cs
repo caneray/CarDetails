@@ -19,7 +19,6 @@ namespace CarDetails.DL.Models
         public DateTime CarModelDate { get; set; }
         [Required(ErrorMessage = "Kasa Tipi Boş Geçilemez!")]
         [Display(Name = "Kasa Tipi")]
-        public string TypeOfCase { get; set; }
         public int CarHP { get; set; }
         [Required(ErrorMessage = "Araç Paketi Boş Geçilemez!")]
         [Display(Name = "Araç Paketi")]
@@ -32,6 +31,9 @@ namespace CarDetails.DL.Models
         public string ImageUrl { get; set; }
         public int BrandId { get; set; }
         public Brand _Brand { get; set; }
+
+        public int CaseTypeId { get; set; }
+        public CaseType _CaseType { get; set; }
 
     }
 }

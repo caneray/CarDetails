@@ -1,0 +1,12 @@
+﻿@model IEnumerable<CarDetails.DL.Models.CaseType>
+
+
+
+<ul class="submenu">
+	@foreach (var item in Model)
+	{
+		<li><a href="/Home/GetCars">@item.CaseTypeName</a></li>
+	}
+
+	
+</ul>

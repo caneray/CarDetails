@@ -1,248 +1,848 @@
 {
   "Files": [
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CarDetails.PL.bundle.scp.css",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CarDetails.PL.bundle.scp.css",
       "PackagePath": "staticwebassets\\CarDetails.PL.bundle.scp.css"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\css\\site.css",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\favicon.ico",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\js\\site.js",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Project\\CarDetails.PL\\CarDetails\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\css\\animate.css",
+      "PackagePath": "staticwebassets\\template\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\template\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\template\\css\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\template\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\css\\gijgo.css",
+      "PackagePath": "staticwebassets\\template\\css\\gijgo.css"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\css\\images\\ui-icons_444444_256x240.html",
+      "PackagePath": "staticwebassets\\template\\css\\images\\ui-icons_444444_256x240.html"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\css\\images\\ui-icons_555555_256x240.html",
+      "PackagePath": "staticwebassets\\template\\css\\images\\ui-icons_555555_256x240.html"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\css\\images\\ui-icons_777620_256x240.html",
+      "PackagePath": "staticwebassets\\template\\css\\images\\ui-icons_777620_256x240.html"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\css\\images\\ui-icons_777777_256x240.html",
+      "PackagePath": "staticwebassets\\template\\css\\images\\ui-icons_777777_256x240.html"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\css\\images\\ui-icons_ffffff_256x240.html",
+      "PackagePath": "staticwebassets\\template\\css\\images\\ui-icons_ffffff_256x240.html"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\template\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\template\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\template\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\template\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\css\\owl.video.play.html",
+      "PackagePath": "staticwebassets\\template\\css\\owl.video.play.html"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\css\\slick.css",
+      "PackagePath": "staticwebassets\\template\\css\\slick.css"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\css\\slicknav.css",
+      "PackagePath": "staticwebassets\\template\\css\\slicknav.css"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\css\\style.css",
+      "PackagePath": "staticwebassets\\template\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\template\\css\\themify-icons.css"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\fonts\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\template\\fonts\\Flaticon.eot"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\fonts\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\template\\fonts\\Flaticon.svg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\fonts\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\Flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\template\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\fonts\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\template\\fonts\\Flaticon.woff2"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\fonts\\Flaticond41d.eot",
+      "PackagePath": "staticwebassets\\template\\fonts\\Flaticond41d.eot"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\fonts\\fontawesome-webfont3e6e.eot",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome-webfont3e6e.eot"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\fonts\\fontawesome-webfont3e6e.svg",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome-webfont3e6e.svg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\fonts\\fontawesome-webfont3e6e.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome-webfont3e6e.ttf"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\fonts\\fontawesome-webfont3e6e.woff",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome-webfont3e6e.woff"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\fonts\\fontawesome-webfont3e6e.woff2",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome-webfont3e6e.woff2"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\template\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\fonts\\gijgo-materialba15.eot",
+      "PackagePath": "staticwebassets\\template\\fonts\\gijgo-materialba15.eot"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\fonts\\gijgo-materialba15.svg",
+      "PackagePath": "staticwebassets\\template\\fonts\\gijgo-materialba15.svg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\fonts\\gijgo-materialba15.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\gijgo-materialba15.ttf"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\fonts\\gijgo-materialba15.woff",
+      "PackagePath": "staticwebassets\\template\\fonts\\gijgo-materialba15.woff"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\fonts\\themify9f24.eot",
+      "PackagePath": "staticwebassets\\template\\fonts\\themify9f24.eot"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\fonts\\themify9f24.svg",
+      "PackagePath": "staticwebassets\\template\\fonts\\themify9f24.svg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\fonts\\themify9f24.ttf",
+      "PackagePath": "staticwebassets\\template\\fonts\\themify9f24.ttf"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\fonts\\themify9f24.woff",
+      "PackagePath": "staticwebassets\\template\\fonts\\themify9f24.woff"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\fonts\\themifyd41d.eot",
+      "PackagePath": "staticwebassets\\template\\fonts\\themifyd41d.eot"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\about\\1.png",
+      "PackagePath": "staticwebassets\\template\\img\\about\\1.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\about\\2.png",
+      "PackagePath": "staticwebassets\\template\\img\\about\\2.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\banner\\banner.png",
+      "PackagePath": "staticwebassets\\template\\img\\banner\\banner.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\banner\\banner2.png",
+      "PackagePath": "staticwebassets\\template\\img\\banner\\banner2.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\banner\\banner3.png",
+      "PackagePath": "staticwebassets\\template\\img\\banner\\banner3.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\banner\\bradcam2.png",
+      "PackagePath": "staticwebassets\\template\\img\\banner\\bradcam2.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\banner\\bradcam3.png",
+      "PackagePath": "staticwebassets\\template\\img\\banner\\bradcam3.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\banner\\bradcam4.png",
+      "PackagePath": "staticwebassets\\template\\img\\banner\\bradcam4.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\banner\\destination.png",
+      "PackagePath": "staticwebassets\\template\\img\\banner\\destination.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\banner\\newsletter.png",
+      "PackagePath": "staticwebassets\\template\\img\\banner\\newsletter.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\banner\\video.png",
+      "PackagePath": "staticwebassets\\template\\img\\banner\\video.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\blog\\author.png",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\author.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\blog\\single_blog_1.png",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\single_blog_1.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\blog\\single_blog_2.png",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\single_blog_2.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\blog\\single_blog_3.png",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\single_blog_3.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\blog\\single_blog_4.png",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\single_blog_4.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\blog\\single_blog_5.png",
+      "PackagePath": "staticwebassets\\template\\img\\blog\\single_blog_5.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\comment\\comment_1.png",
+      "PackagePath": "staticwebassets\\template\\img\\comment\\comment_1.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\comment\\comment_2.png",
+      "PackagePath": "staticwebassets\\template\\img\\comment\\comment_2.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\comment\\comment_3.png",
+      "PackagePath": "staticwebassets\\template\\img\\comment\\comment_3.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\destination\\1.png",
+      "PackagePath": "staticwebassets\\template\\img\\destination\\1.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\destination\\2.png",
+      "PackagePath": "staticwebassets\\template\\img\\destination\\2.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\destination\\3.png",
+      "PackagePath": "staticwebassets\\template\\img\\destination\\3.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\destination\\4.png",
+      "PackagePath": "staticwebassets\\template\\img\\destination\\4.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\destination\\5.png",
+      "PackagePath": "staticwebassets\\template\\img\\destination\\5.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\destination\\6.png",
+      "PackagePath": "staticwebassets\\template\\img\\destination\\6.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\elements\\d.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\d.jpg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\elements\\disabled-check.png",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\disabled-check.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\elements\\disabled-radio.png",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\disabled-radio.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\elements\\f1.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\f1.jpg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\elements\\f2.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\f2.jpg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\elements\\f3.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\f3.jpg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\elements\\f4.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\f4.jpg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\elements\\f5.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\f5.jpg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\elements\\f6.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\f6.jpg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\elements\\f7.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\f7.jpg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\elements\\f8.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\f8.jpg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\elements\\g1.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\g1.jpg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\elements\\g2.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\g2.jpg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\elements\\g3.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\g3.jpg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\elements\\g4.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\g4.jpg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\elements\\g5.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\g5.jpg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\elements\\g6.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\g6.jpg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\elements\\g7.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\g7.jpg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\elements\\g8.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\g8.jpg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\elements\\primary-check.png",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\primary-check.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\elements\\primary-radio.png",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\primary-radio.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\elements\\success-check.png",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\success-check.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\elements\\success-radio.png",
+      "PackagePath": "staticwebassets\\template\\img\\elements\\success-radio.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\template\\img\\favicon.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\footer_logo.png",
+      "PackagePath": "staticwebassets\\template\\img\\footer_logo.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\instagram\\1.png",
+      "PackagePath": "staticwebassets\\template\\img\\instagram\\1.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\instagram\\2.png",
+      "PackagePath": "staticwebassets\\template\\img\\instagram\\2.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\instagram\\3.png",
+      "PackagePath": "staticwebassets\\template\\img\\instagram\\3.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\instagram\\4.png",
+      "PackagePath": "staticwebassets\\template\\img\\instagram\\4.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\instagram\\5.png",
+      "PackagePath": "staticwebassets\\template\\img\\instagram\\5.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\instagram\\6.png",
+      "PackagePath": "staticwebassets\\template\\img\\instagram\\6.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\logo.png",
+      "PackagePath": "staticwebassets\\template\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\place\\1.png",
+      "PackagePath": "staticwebassets\\template\\img\\place\\1.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\place\\2.png",
+      "PackagePath": "staticwebassets\\template\\img\\place\\2.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\place\\3.png",
+      "PackagePath": "staticwebassets\\template\\img\\place\\3.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\place\\4.png",
+      "PackagePath": "staticwebassets\\template\\img\\place\\4.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\place\\5.png",
+      "PackagePath": "staticwebassets\\template\\img\\place\\5.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\place\\6.png",
+      "PackagePath": "staticwebassets\\template\\img\\place\\6.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\post\\next.png",
+      "PackagePath": "staticwebassets\\template\\img\\post\\next.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\post\\post_1.png",
+      "PackagePath": "staticwebassets\\template\\img\\post\\post_1.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\post\\post_10.png",
+      "PackagePath": "staticwebassets\\template\\img\\post\\post_10.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\post\\post_2.png",
+      "PackagePath": "staticwebassets\\template\\img\\post\\post_2.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\post\\post_3.png",
+      "PackagePath": "staticwebassets\\template\\img\\post\\post_3.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\post\\post_4.png",
+      "PackagePath": "staticwebassets\\template\\img\\post\\post_4.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\post\\post_5.png",
+      "PackagePath": "staticwebassets\\template\\img\\post\\post_5.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\post\\post_6.png",
+      "PackagePath": "staticwebassets\\template\\img\\post\\post_6.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\post\\post_7.png",
+      "PackagePath": "staticwebassets\\template\\img\\post\\post_7.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\post\\post_8.png",
+      "PackagePath": "staticwebassets\\template\\img\\post\\post_8.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\post\\post_9.png",
+      "PackagePath": "staticwebassets\\template\\img\\post\\post_9.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\post\\preview.png",
+      "PackagePath": "staticwebassets\\template\\img\\post\\preview.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\svg_icon\\1.svg",
+      "PackagePath": "staticwebassets\\template\\img\\svg_icon\\1.svg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\svg_icon\\2.svg",
+      "PackagePath": "staticwebassets\\template\\img\\svg_icon\\2.svg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\svg_icon\\3.svg",
+      "PackagePath": "staticwebassets\\template\\img\\svg_icon\\3.svg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\testmonial\\author.png",
+      "PackagePath": "staticwebassets\\template\\img\\testmonial\\author.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\trip\\1.png",
+      "PackagePath": "staticwebassets\\template\\img\\trip\\1.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\trip\\2.png",
+      "PackagePath": "staticwebassets\\template\\img\\trip\\2.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\trip\\3.png",
+      "PackagePath": "staticwebassets\\template\\img\\trip\\3.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\js\\ajax-form.js",
+      "PackagePath": "staticwebassets\\template\\js\\ajax-form.js"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\js\\contact.js",
+      "PackagePath": "staticwebassets\\template\\js\\contact.js"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\js\\gijgo.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\gijgo.min.js"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\js\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\js\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\js\\jquery.ajaxchimp.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\jquery.ajaxchimp.min.js"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\js\\jquery.form.js",
+      "PackagePath": "staticwebassets\\template\\js\\jquery.form.js"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\js\\jquery.scrollUp.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\jquery.scrollUp.min.js"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\js\\jquery.slicknav.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\jquery.slicknav.min.js"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\js\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\js\\mail-script.js",
+      "PackagePath": "staticwebassets\\template\\js\\mail-script.js"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\js\\main.js",
+      "PackagePath": "staticwebassets\\template\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\js\\nice-select.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\nice-select.min.js"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\template\\js\\plugins.js"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\js\\range.js",
+      "PackagePath": "staticwebassets\\template\\js\\range.js"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\js\\scrollIt.js",
+      "PackagePath": "staticwebassets\\template\\js\\scrollIt.js"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\js\\vendor\\jquery-1.12.4.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\vendor\\jquery-1.12.4.min.js"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\js\\vendor\\modernizr-3.5.0.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\vendor\\modernizr-3.5.0.min.js"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\js\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\template\\js\\wow.min.js"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.CarDetails.PL.Microsoft.AspNetCore.StaticWebAssets.props",

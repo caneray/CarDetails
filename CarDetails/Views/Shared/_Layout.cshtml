@@ -1,49 +1,292 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+﻿<!doctype html>
+<html class="no-js" lang="zxx">
+
+<!-- Mirrored from preview.colorlib.com/theme/travelo/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 20 Dec 2022 06:57:34 GMT -->
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - CarDetails</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/CarDetails.styles.css" asp-append-version="true" />
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Travelo</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="shortcut icon" type="image/x-icon" href="~/template/img/favicon.png">
+
+
+	<link rel="stylesheet" href="~/template/css/bootstrap.min.css">
+	<link rel="stylesheet" href="~/template/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="~/template/css/magnific-popup.css">
+	<link rel="stylesheet" href="~/template/css/font-awesome.min.css">
+	<link rel="stylesheet" href="~/template/css/themify-icons.css">
+	<link rel="stylesheet" href="~/template/css/nice-select.css">
+	<link rel="stylesheet" href="~/template/css/flaticon.css">
+	<link rel="stylesheet" href="~/template/css/gijgo.css">
+	<link rel="stylesheet" href="~/template/css/animate.css">
+	<link rel="stylesheet" href="~/template/css/slick.css">
+	<link rel="stylesheet" href="~/template/css/slicknav.css">
+	<link rel="stylesheet" href="~/template/../../../ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" href="~/template/css/style.css">
+
+	<script nonce="e7bdd931-ad4d-4426-b33e-1a11a7119aa0">(function (w, d) { !function (eK, eL, eM, eN) { eK.zarazData = eK.zarazData || {}; eK.zarazData.executed = []; eK.zaraz = { deferred: [], listeners: [] }; eK.zaraz.q = []; eK.zaraz._f = function (eO) { return function () { var eP = Array.prototype.slice.call(arguments); eK.zaraz.q.push({ m: eO, a: eP }) } }; for (const eQ of ["track", "set", "debug"]) eK.zaraz[eQ] = eK.zaraz._f(eQ); eK.zaraz.init = () => { var eR = eL.getElementsByTagName(eN)[0], eS = eL.createElement(eN), eT = eL.getElementsByTagName("title")[0]; eT && (eK.zarazData.t = eL.getElementsByTagName("title")[0].text); eK.zarazData.x = Math.random(); eK.zarazData.w = eK.screen.width; eK.zarazData.h = eK.screen.height; eK.zarazData.j = eK.innerHeight; eK.zarazData.e = eK.innerWidth; eK.zarazData.l = eK.location.href; eK.zarazData.r = eL.referrer; eK.zarazData.k = eK.screen.colorDepth; eK.zarazData.n = eL.characterSet; eK.zarazData.o = (new Date).getTimezoneOffset(); if (eK.dataLayer) for (const eX of Object.entries(Object.entries(dataLayer).reduce(((eY, eZ) => ({ ...eY[1], ...eZ[1] }))))) zaraz.set(eX[0], eX[1], { scope: "page" }); eK.zarazData.q = []; for (; eK.zaraz.q.length;) { const e_ = eK.zaraz.q.shift(); eK.zarazData.q.push(e_) } eS.defer = !0; for (const fa of [localStorage, sessionStorage]) Object.keys(fa || {}).filter((fc => fc.startsWith("_zaraz_"))).forEach((fb => { try { eK.zarazData["z_" + fb.slice(7)] = JSON.parse(fa.getItem(fb)) } catch { eK.zarazData["z_" + fb.slice(7)] = fa.getItem(fb) } })); eS.referrerPolicy = "origin"; eS.src = "~/template/../../cdn-cgi/zaraz/sd0d9.js?z=" + btoa(encodeURIComponent(JSON.stringify(eK.zarazData))); eR.parentNode.insertBefore(eS, eR) };["complete", "interactive"].includes(eL.readyState) ? zaraz.init() : eK.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, 0, "script"); })(window, document);</script>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">CarDetails</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+	<!--[if lte IE 9]>
+				<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="~/template/https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+			<![endif]-->
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2022 - CarDetails - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+	<header>
+		<div class="header-area ">
+			<div id="sticky-header" class="main-header-area">
+				<div class="container-fluid">
+					<div class="header_bottom_border">
+						<div class="row align-items-center">
+							<div class="col-xl-2 col-lg-2">
+								<div class="logo">
+									<a href="~/template/index-2.html">
+										<img src="~/template/img/logo.png" alt="">
+									</a>
+								</div>
+							</div>
+							<div class="col-xl-6 col-lg-6">
+								<div class="main-menu  d-none d-lg-block">
+									<nav>
+										<ul id="navigation">
+											<li><a class="active" href="/Home/Index">Anasayfa</a></li>
+											<li><a href="/Home/About">Hakkımızda</a></li>
+											<li>
+												<a href="">Kasa Tipi <i class="ti-angle-down"></i></a>
+												@await Component.InvokeAsync("CarsGet")
+											</li>
+											<li><a href="/Home/Contact">İletişim</a></li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+							<div class="col-xl-4 col-lg-4 d-none d-lg-block">
+								<div class="social_wrap d-flex align-items-center justify-content-end">
+									<div class="number">
+										<p> <i class="fa fa-phone"></i> 10(256)-928 256</p>
+									</div>
+									<div class="social_links d-none d-xl-block">
+										<ul>
+											<li><a href="~/template/#"> <i class="fa fa-instagram"></i> </a></li>
+											<li><a href="~/template/#"> <i class="fa fa-linkedin"></i> </a></li>
+											<li><a href="~/template/#"> <i class="fa fa-facebook"></i> </a></li>
+											<li><a href="~/template/#"> <i class="fa fa-google-plus"></i> </a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="seach_icon">
+								<a data-toggle="modal" data-target="#exampleModalCenter" href="~/template/#">
+									<i class="fa fa-search"></i>
+								</a>
+							</div>
+							<div class="col-12">
+								<div class="mobile_menu d-block d-lg-none"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	@RenderBody()
+
+
+	<footer class="footer">
+		<div class="footer_top">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-4 col-md-6 col-lg-4 ">
+						<div class="footer_widget">
+							<div class="footer_logo">
+								<a href="~/template/#">
+									<img src="~/template/img/footer_logo.png" alt="">
+								</a>
+							</div>
+							<p>
+								5th flora, 700/D kings road, green <br> lane New York-1782 <br>
+								<a href="~/template/#">+10 367 826 2567</a> <br>
+								<a href="~/template/#"><span class="__cf_email__" data-cfemail="a2c1cdccd6c3c1d6e2c1c3d0d2c7ccd6c7d08cc1cdcf">[email&#160;protected]</span></a>
+							</p>
+							<div class="socail_links">
+								<ul>
+									<li>
+										<a href="~/template/#">
+											<i class="ti-facebook"></i>
+										</a>
+									</li>
+									<li>
+										<a href="~/template/#">
+											<i class="ti-twitter-alt"></i>
+										</a>
+									</li>
+									<li>
+										<a href="~/template/#">
+											<i class="fa fa-instagram"></i>
+										</a>
+									</li>
+									<li>
+										<a href="~/template/#">
+											<i class="fa fa-pinterest"></i>
+										</a>
+									</li>
+									<li>
+										<a href="~/template/#">
+											<i class="fa fa-youtube-play"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-2 col-md-6 col-lg-2">
+						<div class="footer_widget">
+							<h3 class="footer_title">
+								Company
+							</h3>
+							<ul class="links">
+								<li><a href="~/template/#">Pricing</a></li>
+								<li><a href="~/template/#">About</a></li>
+								<li><a href="~/template/#"> Gallery</a></li>
+								<li><a href="~/template/#"> Contact</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-3 col-md-6 col-lg-3">
+						<div class="footer_widget">
+							<h3 class="footer_title">
+								Popular destination
+							</h3>
+							<ul class="links double_links">
+								<li><a href="~/template/#">Indonesia</a></li>
+								<li><a href="~/template/#">America</a></li>
+								<li><a href="~/template/#">India</a></li>
+								<li><a href="~/template/#">Switzerland</a></li>
+								<li><a href="~/template/#">Italy</a></li>
+								<li><a href="~/template/#">Canada</a></li>
+								<li><a href="~/template/#">Franch</a></li>
+								<li><a href="~/template/#">England</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-3 col-md-6 col-lg-3">
+						<div class="footer_widget">
+							<h3 class="footer_title">
+								Instagram
+							</h3>
+							<div class="instagram_feed">
+								<div class="single_insta">
+									<a href="~/template/#">
+										<img src="~/template/img/instagram/1.png" alt="">
+									</a>
+								</div>
+								<div class="single_insta">
+									<a href="~/template/#">
+										<img src="~/template/img/instagram/2.png" alt="">
+									</a>
+								</div>
+								<div class="single_insta">
+									<a href="~/template/#">
+										<img src="~/template/img/instagram/3.png" alt="">
+									</a>
+								</div>
+								<div class="single_insta">
+									<a href="~/template/#">
+										<img src="~/template/img/instagram/4.png" alt="">
+									</a>
+								</div>
+								<div class="single_insta">
+									<a href="~/template/#">
+										<img src="~/template/img/instagram/5.png" alt="">
+									</a>
+								</div>
+								<div class="single_insta">
+									<a href="~/template/#">
+										<img src="~/template/img/instagram/6.png" alt="">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copy-right_text">
+			<div class="container">
+				<div class="footer_border"></div>
+				<div class="row">
+					<div class="col-xl-12">
+						<p class="copy_right text-center">
+
+							Copyright &copy;<script data-cfasync="false" src="~/template/../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="~/template/https://colorlib.com/" target="_blank">Colorlib</a>
+
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div class="modal fade custom_search_pop" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="serch_form">
+					<input type="text" placeholder="Search">
+					<button type="submit">search</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script src="~/template/js/vendor/modernizr-3.5.0.min.js"></script>
+	<script src="~/template/js/vendor/jquery-1.12.4.min.js"></script>
+	<script src="~/template/js/popper.min.js"></script>
+	<script src="~/template/js/bootstrap.min.js"></script>
+	<script src="~/template/js/owl.carousel.min.js"></script>
+	<script src="~/template/js/isotope.pkgd.min.js"></script>
+	<script src="~/template/js/ajax-form.js"></script>
+	<script src="~/template/js/waypoints.min.js"></script>
+	<script src="~/template/js/jquery.counterup.min.js"></script>
+	<script src="~/template/js/imagesloaded.pkgd.min.js"></script>
+	<script src="~/template/js/scrollIt.js"></script>
+	<script src="~/template/js/jquery.scrollUp.min.js"></script>
+	<script src="~/template/js/wow.min.js"></script>
+	<script src="~/template/js/nice-select.min.js"></script>
+	<script src="~/template/js/jquery.slicknav.min.js"></script>
+	<script src="~/template/js/jquery.magnific-popup.min.js"></script>
+	<script src="~/template/js/plugins.js"></script>
+	<script src="~/template/js/gijgo.min.js"></script>
+	<script src="~/template/js/slick.min.js"></script>
+
+	<script src="~/template/js/contact.js"></script>
+	<script src="~/template/js/jquery.ajaxchimp.min.js"></script>
+	<script src="~/template/js/jquery.form.js"></script>
+	<script src="~/template/js/jquery.validate.min.js"></script>
+	<script src="~/template/js/mail-script.js"></script>
+	<script src="~/template/js/main.js"></script>
+	<script>
+		$('#datepicker').datepicker({
+			iconsLibrary: 'fontawesome',
+			icons: {
+				rightIcon: '<span class="fa fa-caret-down"></span>'
+			}
+		});
+	</script>
+
+	<script async src="~/template/https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-23581568-13');
+	</script>
+	<script defer src="~/template/https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"77c67c09eb79509f","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.11.3","si":100}' crossorigin="anonymous"></script>
 </body>
+
+<!-- Mirrored from preview.colorlib.com/theme/travelo/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 20 Dec 2022 06:57:55 GMT -->
 </html>

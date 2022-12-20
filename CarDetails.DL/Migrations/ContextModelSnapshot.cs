@@ -64,6 +64,9 @@ namespace CarDetails.DL.Migrations
                     b.Property<DateTime>("CarModelDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("CaseTypeId")
+                        .HasColumnType("int");
+
                     b.Property<string>("ImageUrl")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -72,15 +75,30 @@ namespace CarDetails.DL.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("TypeOfCase")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.HasKey("CarId");
 
                     b.HasIndex("BrandId");
 
+                    b.HasIndex("CaseTypeId");
+
                     b.ToTable("Car");
+                });
+
+            modelBuilder.Entity("CarDetails.DL.Models.CaseType", b =>
+                {
+                    b.Property<int>("CaseTypeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CaseTypeId"), 1L, 1);
+
+                    b.Property<string>("CaseTypeName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("CaseTypeId");
+
+                    b.ToTable("CaseType");
                 });
 
             modelBuilder.Entity("CarDetails.DL.Models.Comment", b =>
@@ -154,7 +172,15 @@ namespace CarDetails.DL.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("CarDetails.DL.Models.CaseType", "_CaseType")
+                        .WithMany()
+                        .HasForeignKey("CaseTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("_Brand");
+
+                    b.Navigation("_CaseType");
                 });
 
             modelBuilder.Entity("CarDetails.DL.Models.Comment", b =>

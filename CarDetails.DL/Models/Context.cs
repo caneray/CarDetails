@@ -19,6 +19,7 @@ namespace CarDetails.DL.Models
         public DbSet<Brand> Brand { get; set; }
         public DbSet<Comment> Comment { get; set; }
         public DbSet<User> User { get; set; }
+        public DbSet<CaseType> CaseType { get; set; }
 
     }
 }
