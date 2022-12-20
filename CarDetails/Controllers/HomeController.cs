@@ -32,13 +32,13 @@ namespace CarDetails.Controllers
         {
             return View();
         }
-		public IActionResult GetCars(int id)
-		{
-           var result= c.Car.Where(x=>x.CaseTypeId== id).ToList();
-			return View(result);
-		}
+        //public IActionResult GetCars(int id)
+        //{
+        //         var result= c.Car.Where(x=>x.CaseTypeId== id).ToList();
+        //	return View(result);
+        //}
 
-		public IActionResult Privacy()
+        public IActionResult Privacy()
         {
             return View();
         }

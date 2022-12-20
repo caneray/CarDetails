@@ -1,0 +1,32 @@
+﻿@model CarDetails.DL.Models.CaseType
+
+@{
+    ViewData["Title"] = "CaseTypeEdit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CaseTypeEdit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CaseTypeId" hidden class="control-label"></label>
+                <input asp-for="CaseTypeId" hidden class="form-control" />
+                <span asp-validation-for="CaseTypeId" hidden class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CaseTypeName" class="control-label"></label>
+                <input asp-for="CaseTypeName" class="form-control" />
+                <span asp-validation-for="CaseTypeName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Güncelle" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="CaseType">Back to List</a>
+</div>
+

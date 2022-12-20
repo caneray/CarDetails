@@ -12,6 +12,7 @@ namespace CarDetails.DL.Models
 		[Key]
 		public int CaseTypeId { get; set; }
 		[Required]
+		[Display(Name = "Kasa Tipi")]
 		public string CaseTypeName { get; set; }
 	}
 }
