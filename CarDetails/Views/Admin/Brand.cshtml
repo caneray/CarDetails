@@ -16,7 +16,7 @@
 							<table class="table table-striped table-hover" id="tableExport" style="width:100%;">
 								<thead>
 									<tr>
-										<th>Id</th>
+										<th>Logo</th>
 										<th>Araç Marka</th>
 										<th>İşlemler</th>
 									</tr>
@@ -25,7 +25,7 @@
 									@foreach (var item in Model)
 									{
 										<tr>
-											<td>@item.BrandId</td>
+											<td><img src="~/images/@item.ImgUrl" style="max-height:80px;" /></td>
 											<td>@item.BrandName</td>
 											<td>
 												<a class="btn btn-warning" href="/Admin/BrandEdit/@item.BrandId">Güncelle</a>
@@ -49,7 +49,7 @@
 	function jsDelete(id) {
 		swal({
 			title: "Emin misiniz?",
-			text: "Kasa tipi bilgisini silmek için emin misiniz?",
+			text: "Marka bilgisini silmek için emin misiniz?",
 			icon: "warning",
 			buttons: true,
 			dangerMode: true,
@@ -57,7 +57,7 @@
 			.then((willDelete) => {
 				if (willDelete) {
 					window.location.replace('/Admin/BrandDelete/' + id),
-						swal("Kasa Tipi Silindi!", {
+						swal("Marka Tipi Silindi!", {
 							icon: "success",
 						});
 				}

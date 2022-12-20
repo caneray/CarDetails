@@ -7,12 +7,14 @@ using System.Threading.Tasks;
 
 namespace CarDetails.DL.Models
 {
-    public class Brand
-    {
-        [Key]
-        public int BrandId { get; set; }
-        [Required(ErrorMessage = "Model Adı Boş Geçilemez!")]
-        [Display(Name = "Model Adı")]
-        public string BrandName { get; set; }
-    }
+	public class Brand
+	{
+		[Key]
+		public int BrandId { get; set; }
+		[Required(ErrorMessage = "Marka Adı Boş Geçilemez!")]
+		[Display(Name = "Marka Adı")]
+		public string BrandName { get; set; }
+		[Required(ErrorMessage = "Marka Logo Boş Geçilemez!")]
+		public string ImgUrl { get; set; }
+	}
 }

@@ -28,15 +28,16 @@ namespace CarDetails.Controllers
 		{
 			return View();
 		}
-        public IActionResult GetCars()
+        public IActionResult GetBrands(int id)
         {
-            return View();
+			var result = c.Car.Where(x => x.BrandId == id).ToList();
+			 return View(result);
+		}
+        public IActionResult GetCars(int id)
+        {
+            var result = c.Car.Where(x => x.CaseTypeId == id).ToList();
+            return View(result);
         }
-        //public IActionResult GetCars(int id)
-        //{
-        //         var result= c.Car.Where(x=>x.CaseTypeId== id).ToList();
-        //	return View(result);
-        //}
 
         public IActionResult Privacy()
         {

@@ -34,6 +34,10 @@ namespace CarDetails.DL.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ImgUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("BrandId");
 
                     b.ToTable("Brand");

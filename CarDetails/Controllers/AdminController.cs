@@ -159,15 +159,31 @@ namespace CarDetails.PL.Controllers
 			return View();
 		}
 		[HttpPost]
-		public IActionResult CreateBrand(Brand model)
+		public IActionResult CreateBrand(BrandAdd model)
 		{
+
+			Brand b = new Brand();
 			if (ModelState.IsValid)
 			{
-				brandRepository.TAdd(model);
+				if (model.ImgUrl != null)
+				{
+					var extension = Path.GetExtension(model.ImgUrl.FileName);
+					var newImageName = Guid.NewGuid() + extension;
+					var location = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/", newImageName);
+					var stream = new FileStream(location, FileMode.Create);
+					model.ImgUrl.CopyTo(stream);
+					b.ImgUrl = newImageName;
+				}
+			   b.BrandName= model.BrandName;
+
+				brandRepository.TAdd(b);
 				return RedirectToAction("Brand");
 			}
 
 			return View();
+
+
+
 		}
 		public IActionResult BrandEdit(int id)
 		{

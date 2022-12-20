@@ -1,0 +1,50 @@
+﻿@model IEnumerable<CarDetails.DL.Models.Car>
+
+@{
+	ViewData["Title"] = "Marka";
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="popular_places_area">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-lg-12">
+				<div class="row">
+					@foreach (var item in Model)
+					{
+						<div class="col-lg-4 col-md-4">
+							<div class="single_place">
+								<div class="thumb">
+									<img src="~/images/@item.ImageUrl" alt="">
+									
+								</div>
+								<div class="place_info">
+									<a href="destination_details.html"><h3>@*@item.BrandId*@ @item.CarModel</h3></a>
+									<p>Motor Gücü: @item.CarHP HP</p>
+									<p>Paket: @item.PackageName</p>
+									<p> @item.CarFuel</p>
+									<div class="rating_days d-flex justify-content-between">
+										<div class="days">
+											<i class="fa fa-clock-o"></i>
+											<a href="#">@item.CarModelDate.Year</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					}
+
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="more_place_btn text-center">
+							<a class="boxed-btn4" href="#">Daha Fazla</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
