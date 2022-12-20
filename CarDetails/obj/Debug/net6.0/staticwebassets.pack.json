@@ -2985,8 +2985,24 @@
       "PackagePath": "staticwebassets\\images\\913024c6-bf61-40c5-b02e-f7cdf44b1b9b.webp"
     },
     {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\images\\bmw.jpg",
+      "PackagePath": "staticwebassets\\images\\bmw.jpg"
+    },
+    {
       "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\images\\fb3b2126-dc02-4dde-9219-8ea7813af519.jpg",
       "PackagePath": "staticwebassets\\images\\fb3b2126-dc02-4dde-9219-8ea7813af519.jpg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\images\\fiat.jpg",
+      "PackagePath": "staticwebassets\\images\\fiat.jpg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\images\\nissan.png",
+      "PackagePath": "staticwebassets\\images\\nissan.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\images\\opel.png",
+      "PackagePath": "staticwebassets\\images\\opel.png"
     },
     {
       "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\images\\slider1.jpg",
@@ -3003,6 +3019,10 @@
     {
       "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\images\\tofas.jpg",
       "PackagePath": "staticwebassets\\images\\tofas.jpg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\images\\vw.png",
+      "PackagePath": "staticwebassets\\images\\vw.png"
     },
     {
       "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\js\\site.js",
@@ -3613,8 +3633,8 @@
       "PackagePath": "staticwebassets\\template\\img\\elements\\success-radio.png"
     },
     {
-      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\favicon.png",
-      "PackagePath": "staticwebassets\\template\\img\\favicon.png"
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\template\\img\\favicon.ico"
     },
     {
       "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\footer_logo.png",
@@ -3623,6 +3643,10 @@
     {
       "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\instagram\\1.png",
       "PackagePath": "staticwebassets\\template\\img\\instagram\\1.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\instagram\\1f19743a-e33a-44b7-9ca0-cc11d28f57c1.svg",
+      "PackagePath": "staticwebassets\\template\\img\\instagram\\1f19743a-e33a-44b7-9ca0-cc11d28f57c1.svg"
     },
     {
       "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\instagram\\2.png",
@@ -3645,8 +3669,36 @@
       "PackagePath": "staticwebassets\\template\\img\\instagram\\6.png"
     },
     {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\instagram\\golf.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\instagram\\golf.jpg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\instagram\\honda.webp",
+      "PackagePath": "staticwebassets\\template\\img\\instagram\\honda.webp"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\instagram\\megane1.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\instagram\\megane1.jpg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\instagram\\nissan.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\instagram\\nissan.jpg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\instagram\\slider1.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\instagram\\slider1.jpg"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\instagram\\slider3.jpg",
+      "PackagePath": "staticwebassets\\template\\img\\instagram\\slider3.jpg"
+    },
+    {
       "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\logo.png",
       "PackagePath": "staticwebassets\\template\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\logo1.webp",
+      "PackagePath": "staticwebassets\\template\\img\\logo1.webp"
     },
     {
       "Id": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\template\\img\\place\\1.png",

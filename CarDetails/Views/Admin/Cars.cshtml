@@ -33,7 +33,7 @@
 									{
 										<tr>
 											<td>
-												<img src="~/images/	@item.ImageUrl" style="max-height:70px;" />
+												<img src="~/images/	@item.ImageUrl" style="max-height:70px; padding:5px; width:100px;" />
 											</td>
 											<td>@item.BrandId</td>
 											<td>@item.CarModel</td>
@@ -64,7 +64,7 @@
 	function jsDelete(id) {
 		swal({
 			title: "Emin misiniz?",
-			text: "Kasa tipi bilgisini silmek için emin misiniz?",
+			text: "Bu aracı silmek istediğinize emin misiniz?",
 			icon: "warning",
 			buttons: true,
 			dangerMode: true,
@@ -72,7 +72,7 @@
 			.then((willDelete) => {
 				if (willDelete) {
 					window.location.replace('/Admin/CarDelete/' + id),
-						swal("Kasa Tipi Silindi!", {
+						swal("Araç Silindi!", {
 							icon: "success",
 						});
 				}

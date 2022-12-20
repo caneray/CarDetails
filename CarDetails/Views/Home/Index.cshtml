@@ -1,50 +1,31 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Anasayfa";
 }
 <div class="slider_area">
     <div class="slider_active owl-carousel">
         <div class="single_slider  d-flex align-items-center slider_bg_1 overlay">
         </div>
         <div class="single_slider  d-flex align-items-center slider_bg_2 overlay">
-            @*<div class="container">
-                <div class="row align-items-center">
-                    <div class="col-xl-12 col-md-12">
-                        <div class="slider_text text-center">
-                            <a href="~/template/#" class="boxed-btn3">Detay</a>
-                        </div>
-                    </div>
-                </div>
-			</div>*@
         </div>
     </div>
 </div>
 
-<div class="where_togo_area">
+@*<div class="where_togo_area">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-3">
                 <div class="form_area">
-                    <h3>Where you want to go?</h3>
+                    <h3> Model Ara<h3>
                 </div>
             </div>
             <div class="col-lg-9">
                 <div class="search_wrap">
-                    <form class="search_form" action="#">
+                    <form class="search_form" method="post" asp-action="SearchCar">
                         <div class="input_field">
-                            <input type="text" placeholder="Where to go?">
-                        </div>
-                        <div class="input_field">
-                            <input id="datepicker" placeholder="Date">
-                        </div>
-                        <div class="input_field">
-                            <select>
-                                <option data-display="Travel type">Travel type</option>
-                                <option value="1">Some option</option>
-                                <option value="2">Another option</option>
-                            </select>
+                            <input type="text" name="aranan">
                         </div>
                         <div class="search_btn">
-                            <button class="boxed-btn4 " type="submit">Search</button>
+                            <button class="boxed-btn4 " type="submit">Ara</button>
                         </div>
                     </form>
                 </div>
@@ -53,7 +34,7 @@
     </div>
 </div>
 
-
+*@
 
 
 @await Component.InvokeAsync("HomeBrandsGet")

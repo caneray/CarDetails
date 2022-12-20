@@ -74,7 +74,47 @@ namespace CarDetails.PL.Controllers
 
 			return View();
 		}
-
+		public IActionResult CarDelete(int id)
+		{
+			var result = carRepository.TGet(id);
+			if (result == null)
+			{
+				return NotFound();
+			}
+			else
+			{
+				carRepository.TDelete(result);
+				return RedirectToAction("Cars");
+			}
+		}
+		public IActionResult CarEdit(int id)
+		{
+			var result = carRepository.TGet(id);
+			if (id == 0)
+			{
+				return NotFound();
+			}
+			return View(result);
+		}
+		[HttpPost]
+		public IActionResult CarEdit(Car model) //eksik
+		{
+			var result = carRepository.TGet(model.CarId);
+			if (ModelState.IsValid)
+			{
+				result.CarModel = model.CarModel;
+				result.CarModelDate = model.CarModelDate;
+				result.CarHP = model.CarHP;
+				result.PackageName = model.PackageName;
+				result.CarFuel = model.CarFuel;
+				result.ImageUrl = model.ImageUrl;
+				result.BrandId = model.BrandId;
+				result.CaseTypeId = model.CaseTypeId;
+				carRepository.TUpdate(result);
+				return RedirectToAction("Cars");
+			}
+			return View();
+		}
 
 		#region CASETYPE 
 

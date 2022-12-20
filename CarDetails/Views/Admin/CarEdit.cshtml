@@ -1,0 +1,71 @@
+﻿@model CarDetails.DL.Models.Car
+
+@{
+    ViewData["Title"] = "CarEdit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>CarEdit</h1>
+
+<h4>Car</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CarEdit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CarId" hidden class="control-label"></label>
+                <input asp-for="CarId" hidden class="form-control" />
+                <span asp-validation-for="CarId" hidden class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarModel" class="control-label"></label>
+                <input asp-for="CarModel" class="form-control" />
+                <span asp-validation-for="CarModel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarModelDate" class="control-label"></label>
+                <input asp-for="CarModelDate" class="form-control" />
+                <span asp-validation-for="CarModelDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarHP" class="control-label"></label>
+                <input asp-for="CarHP" class="form-control" />
+                <span asp-validation-for="CarHP" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PackageName" class="control-label"></label>
+                <input asp-for="PackageName" class="form-control" />
+                <span asp-validation-for="PackageName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CarFuel" class="control-label"></label>
+                <input asp-for="CarFuel" class="form-control" />
+                <span asp-validation-for="CarFuel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageUrl" class="control-label"></label>
+                <input asp-for="ImageUrl" class="form-control" />
+                <span asp-validation-for="ImageUrl" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BrandId" class="control-label"></label>
+                <input asp-for="BrandId" class="form-control" />
+                <span asp-validation-for="BrandId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CaseTypeId" class="control-label"></label>
+                <input asp-for="CaseTypeId" class="form-control" />
+                <span asp-validation-for="CaseTypeId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

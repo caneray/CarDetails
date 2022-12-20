@@ -3,6 +3,7 @@ using CarDetails.Models;
 using MessagePack;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using System.Security.Policy;
 
 namespace CarDetails.Controllers
 {
@@ -28,7 +29,18 @@ namespace CarDetails.Controllers
 		{
 			return View();
 		}
-        public IActionResult GetBrands(int id)
+   //     public IActionResult SearchCar(string aranan)
+   //     {
+			//int arama = c.Car
+			//	 .Where(p => p.CarModel.Contains(aranan))
+			//	 .Single()
+			//	 .CarId;
+
+
+			//return View();
+   //     }
+
+		public IActionResult GetBrands(int id)
         {
 			var result = c.Car.Where(x => x.BrandId == id).ToList();
 			 return View(result);
@@ -38,8 +50,12 @@ namespace CarDetails.Controllers
             var result = c.Car.Where(x => x.CaseTypeId == id).ToList();
             return View(result);
         }
-
-        public IActionResult Privacy()
+		public IActionResult CarDetail(int id)
+		{
+            var result=c.Car.Where(x=>x.CarId== id).ToList();
+			return View(result);
+		}
+		public IActionResult Privacy()
         {
             return View();
         }
