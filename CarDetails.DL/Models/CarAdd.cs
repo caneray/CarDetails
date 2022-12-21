@@ -27,6 +27,12 @@ namespace CarDetails.DL.Models
 		[Required(ErrorMessage = "Fotoğraf Boş Geçilemez!")]
 		[Display(Name = "Araç Fotoğrafı")]
 		public IFormFile ImageUrl { get; set; }
+		[Required(ErrorMessage = "Araç Detay Başlığı Boş Geçilemez!")]
+		[Display(Name = "Araç Detayı Başlık")]
+		public string CarDetail { get; set; }
+		[Required(ErrorMessage = "Araç Detayı Boş Geçilemez!")]
+		[Display(Name = "Araç Detayı")]
+		public string CarDetailTitle { get; set; }
 		public int BrandId { get; set; }
 
 		public int CaseTypeId { get; set; }

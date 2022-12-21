@@ -18,14 +18,9 @@ namespace CarDetails.DL.Models
         [Display(Name = "Model Yılı")]
         public DateTime CarModelDate { get; set; }
       
-        
         [Required(ErrorMessage = "Motor Gücü Boş Geçilemez!")]
         [Display(Name = "Motor Gücü ")]
         public int CarHP { get; set; }
-
-
-
-
 
         [Required(ErrorMessage = "Araç Paketi Boş Geçilemez!")]
         [Display(Name = "Araç Paketi")]
@@ -36,6 +31,12 @@ namespace CarDetails.DL.Models
         [Required(ErrorMessage = "Fotoğraf Boş Geçilemez!")]
         [Display(Name = "Araç Fotoğrafı")]
         public string ImageUrl { get; set; }
+		[Required(ErrorMessage = "Araç Detay Başlığı Boş Geçilemez!")]
+		[Display(Name = "Araç Detayı Başlık")]
+		public string CarDetail { get; set; }
+		[Required(ErrorMessage = "Araç Detayı Boş Geçilemez!")]
+		[Display(Name = "Araç Detayı")]
+		public string CarDetailTitle { get; set; }
         public int BrandId { get; set; }
         public Brand _Brand { get; set; }
 
