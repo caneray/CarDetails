@@ -1,5 +1,7 @@
-﻿using CarDetails.DL.Models;
+﻿using CarDetails.BL.Repository;
+using CarDetails.DL.Models;
 using CarDetails.Models;
+using Firebase.Auth;
 using MessagePack;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
@@ -11,10 +13,14 @@ namespace CarDetails.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 		Context c = new Context();
+		FirebaseAuthProvider auth;
+		UserRepository user = new UserRepository();
 
 		public HomeController(ILogger<HomeController> logger)
         {
-            _logger = logger;
+			auth = new FirebaseAuthProvider(
+						  new FirebaseConfig("AIzaSyANB0YN1Ro-5ACHnHp63elaRbRXtYZi30k"));
+			_logger = logger;
         }
 
         public IActionResult Index()
@@ -59,8 +65,46 @@ namespace CarDetails.Controllers
         {
             return View();
         }
+        public IActionResult Login()
+        {
+            return View();
+        }
+        public IActionResult Register()
+		{
+			return View();
+		}
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+		[HttpPost]
+		public async Task<IActionResult> Register(SignUp loginModel)
+		{
+			UserModel _user = new UserModel();
+			try
+			{
+				var a = await auth.CreateUserWithEmailAndPasswordAsync(loginModel.Email, loginModel.Password, loginModel.UserName, false);
+				TempData["MailOnay"] = "Lütfen Mail Adresinizi Onaylayınız";
+
+				_user.UserName = loginModel.UserName;
+				_user.Password = loginModel.Password;
+				_user.Email = loginModel.Email;
+				if (ModelState.IsValid)
+				{
+					user.TAdd(_user);
+					return RedirectToAction("Login");
+				}
+			}
+			catch (Exception ex)
+			{
+				if (Response.StatusCode == 200)
+				{
+					TempData["Hata"] = "E mail mevcut!";
+				}
+			}
+
+			return View();
+
+		}
+
+		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });

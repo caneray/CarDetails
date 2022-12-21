@@ -17,7 +17,7 @@ namespace CarDetails.DL.Models
         [Display(Name = "Yorum")]
         public string Text { get; set; }
         public int CarId { get; set; }
-        public User _User { get; set; }
+        public UserModel _User { get; set; }
         public Car _Car { get; set; }
     }
 }
