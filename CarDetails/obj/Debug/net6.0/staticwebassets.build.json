@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aBtXLGVLH47aPBfrADaAk1S5QN3TK7pbTQMbH5fJq40=",
+  "Hash": "ItL2vEm7Qyru2BnuW9LqtVfsg2js4cBXZssBHBaSvCs=",
   "Source": "CarDetails.PL",
   "BasePath": "_content/CarDetails.PL",
   "Mode": "Default",
@@ -12716,6 +12716,40 @@
       "OriginalItemSpec": "wwwroot\\images\\1f19743a-e33a-44b7-9ca0-cc11d28f57c1.svg"
     },
     {
+      "Identity": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\images\\25218039-386f-4a14-bcef-e52448cf9680.jpg",
+      "SourceId": "CarDetails.PL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\",
+      "BasePath": "_content/CarDetails.PL",
+      "RelativePath": "images/25218039-386f-4a14-bcef-e52448cf9680.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\25218039-386f-4a14-bcef-e52448cf9680.jpg"
+    },
+    {
+      "Identity": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\images\\46f4f739-7027-4e84-a228-ae0064f47647.jpg",
+      "SourceId": "CarDetails.PL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\",
+      "BasePath": "_content/CarDetails.PL",
+      "RelativePath": "images/46f4f739-7027-4e84-a228-ae0064f47647.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\46f4f739-7027-4e84-a228-ae0064f47647.jpg"
+    },
+    {
       "Identity": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\images\\4a93e3cf-9165-4b85-9fb0-787703ca86a8.jpg",
       "SourceId": "CarDetails.PL",
       "SourceType": "Discovered",
@@ -12731,6 +12765,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\4a93e3cf-9165-4b85-9fb0-787703ca86a8.jpg"
+    },
+    {
+      "Identity": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\images\\76c3124c-2b69-4ec8-b7d5-291e8408eba9.jpg",
+      "SourceId": "CarDetails.PL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\",
+      "BasePath": "_content/CarDetails.PL",
+      "RelativePath": "images/76c3124c-2b69-4ec8-b7d5-291e8408eba9.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\76c3124c-2b69-4ec8-b7d5-291e8408eba9.jpg"
     },
     {
       "Identity": "C:\\Project\\CarDetails\\CarDetails\\wwwroot\\images\\913024c6-bf61-40c5-b02e-f7cdf44b1b9b.webp",

@@ -65,6 +65,8 @@ namespace CarDetails.PL.Controllers
 				c.CarHP = model.CarHP;
 				c.PackageName = model.PackageName;
 				c.CarFuel = model.CarFuel;
+				c.CarDetail = model.CarDetail;
+				c.CarDetailTitle = model.CarDetailTitle;
 				c.BrandId=model.BrandId;
 				c.CaseTypeId= model.CaseTypeId;
 

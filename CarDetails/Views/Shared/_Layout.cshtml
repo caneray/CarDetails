@@ -57,13 +57,15 @@
 												@await Component.InvokeAsync("CarsGet")
 											</li>
 											<li><a href="/Home/Contact">İletişim</a></li>
-											<li><a href="/Home/Register">Kayıt Ol</a></li>
+											@*<li><a class="seemobil" href="/Home/Register">Kayıt Ol</a></li>*@
 										</ul>
 									</nav>
 								</div>
 							</div>
+
 							<div class="col-xl-4 col-lg-4 d-none d-lg-block">
-								<div class="social_wrap d-flex align-items-center justify-content-end">
+								<div class="social_wrap d-flex align-items-center justify-content-end" id="navigation">
+									<a style="padding-right:5%;" href="/Home/Register">Kayıt Ol</a>
 									<a href="/Admin/Index">Login</a>
 								</div>
 							</div>

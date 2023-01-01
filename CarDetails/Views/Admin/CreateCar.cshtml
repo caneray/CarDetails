@@ -8,8 +8,8 @@
 <div class="row">
 	<div class="col-md-4">
 		<form asp-action="CreateCar" enctype="multipart/form-data">
-			<div asp-validation-summary="ModelOnly" class="text-danger" ></div>
-			
+			<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
 			<div class="form-group">
 				<label asp-for="CarModel" class="control-label"></label>
 				<input asp-for="CarModel" class="form-control" />
@@ -35,7 +35,17 @@
 				<input asp-for="CarFuel" class="form-control" />
 				<span asp-validation-for="CarFuel" class="text-danger"></span>
 			</div>
-			
+			<div class="form-group">
+				<label asp-for="CarDetail" class="control-label"></label>
+				<input asp-for="CarDetail" class="form-control" />
+				<span asp-validation-for="CarDetail" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="CarDetailTitle" class="control-label"></label>
+				<input asp-for="CarDetailTitle" class="form-control" />
+				<span asp-validation-for="CarDetailTitle" class="text-danger"></span>
+			</div>
+
 			<div class="form-group">
 				<label class="control-label">Araç Resmi Seçiniz</label>
 				<input type="file" name="ImageUrl" asp-for="ImageUrl" accept="image/*" class="form-control" />
@@ -55,7 +65,7 @@
 				<span asp-validation-for="CaseTypeId" class="text-danger"></span>
 			</div>
 
-			
+
 			<div class="form-group">
 				<input type="submit" value="Kaydet" class="btn btn-primary" />
 			</div>
